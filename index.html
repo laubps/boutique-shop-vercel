@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boutique Nova – Moda Femenina</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVEGACIÓN -->
+  <header class="header" id="inicio">
+    <div class="header__container">
+      <div class="header__logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Boutique Nova</span>
+      </div>
+      <nav class="nav">
+        <a href="#inicio" class="nav__link">Inicio</a>
+        <a href="#catalogo" class="nav__link">Catálogo</a>
+        <a href="#servicios" class="nav__link">Servicios</a>
+        <a href="#contacto" class="nav__link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tagline">Nueva colección 2026</p>
+      <h1 class="hero__title">Moda que te define</h1>
+      <p class="hero__subtitle">Ropa femenina exclusiva en Guadalajara, Jalisco.</p>
+      <a href="#catalogo" class="btn btn--primary">Ver catálogo</a>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section class="section" id="catalogo">
+    <div class="section__container">
+      <h2 class="section__title">Catálogo</h2>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--1"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Vestido Floral Midi</h3>
+            <p class="product-card__price">$899</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--2"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Blusa Off-Shoulder</h3>
+            <p class="product-card__price">$450</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--3"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Pantalón Wide Leg</h3>
+            <p class="product-card__price">$650</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--4"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Blazer Estructurado</h3>
+            <p class="product-card__price">$1,200</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--5"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Falda Plisada</h3>
+            <p class="product-card__price">$520</p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img product-card__img--6"></div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">Conjunto Casual Lino</h3>
+            <p class="product-card__price">$980</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section--dark" id="servicios">
+    <div class="section__container">
+      <h2 class="section__title">Servicios</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <span class="service-card__icon">👗</span>
+          <h3 class="service-card__title">Venta de ropa femenina</h3>
+          <p class="service-card__desc">Prendas de temporada con las últimas tendencias de moda internacional.</p>
+        </div>
+
+        <div class="service-card">
+          <span class="service-card__icon">💍</span>
+          <h3 class="service-card__title">Accesorios</h3>
+          <p class="service-card__desc">Bolsos, joyería y complementos seleccionados para cada estilo.</p>
+        </div>
+
+        <div class="service-card">
+          <span class="service-card__icon">🪞</span>
+          <h3 class="service-card__title">Asesoría de imagen</h3>
+          <p class="service-card__desc">Consulta personalizada para armar outfits según tu tipo de cuerpo y ocasión.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="section__container section__container--narrow">
+      <h2 class="section__title">Contacto</h2>
+      <form class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre completo" required />
+        </div>
+        <div class="form-group">
+          <label for="correo" class="form-label">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" class="form-input" placeholder="correo@ejemplo.com" required />
+        </div>
+        <div class="form-group">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="33 1234 5678" />
+        </div>
+        <div class="form-group">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" class="form-input form-textarea" placeholder="Escribe tu consulta..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__store">
+      <p class="footer__brand">✦ Boutique Nova</p>
+      <p class="footer__location">📍 Guadalajara, Jalisco, México</p>
+      <p class="footer__social">Instagram: @boutiquenova &nbsp;|&nbsp; Facebook: Boutique Nova GDL</p>
+    </div>
+    <div class="footer__academic">
+      <p><strong>Alumna:</strong> Laura Pelagio</p>
+      <p><strong>Materia:</strong> Desarrollo de Aplicaciones Web en la Nube y Móviles</p>
+      <p><strong>Profesor:</strong> [NOMBRE_PROFESOR] &nbsp;|&nbsp; <strong>Calendario:</strong> [CALENDARIO]</p>
+      <p>Mayo 2026 &nbsp;|&nbsp; CUCEI – Universidad de Guadalajara</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
