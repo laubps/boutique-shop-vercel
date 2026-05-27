@@ -28,6 +28,6 @@ No requiere instalación. Abre `index.html` directamente en el navegador.
 
 ## Despliegue
 
-**Sitio en vivo:** [PENDIENTE – pegar URL de Vercel]
+**Sitio en vivo:** https://boutique-shop-vercel.vercel.app/
 
-**Repositorio:** [PENDIENTE – pegar URL del repositorio]
+**Repositorio:** https://github.com/laubps/boutique-shop-vercel
